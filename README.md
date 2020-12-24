@@ -124,11 +124,11 @@ It has a black filter by default in `--imgcol`, and it'ts value is: `rgba(255, 2
 You can put your name and change the greetings.
 
 ```js
-var name = 'John Doe';
-var lateTxt = 'Go to Sleep! ';
-var morningTxt = 'Good morning! ';
-var afterTxt = 'Good afternoon ';
-var evenTxt = 'Good evening ';
+let name = 'John Doe';
+let lateTxt = 'Go to Sleep! ';
+let morningTxt = 'Good morning! ';
+let afterTxt = 'Good afternoon ';
+let evenTxt = 'Good evening ';
 ```
 
 It'll change in order of the hour.

@@ -1,0 +1,25 @@
+
+.c-clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-clock__hour,
+.c-clock__separator,
+.c-clock__minutes {
+    font-size: $fsg;
+    font-weight: bolder;
+    color: var(--fg);
+}
+
+.c-date__month,
+.c-date__day {
+    font-size: $fsm;
+    font-weight: bold;
+    color: var(--fg);
+}
+.c-date__day {
+    margin-left: 20px;
+}
+

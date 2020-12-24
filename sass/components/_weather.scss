@@ -1,0 +1,25 @@
+.c-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__icon img {
+        width: 80px;
+        height: 80px;
+    }
+
+    &__temperature {
+        &-value p {
+            font-size: $fss;
+            font-weight: bolder;
+            margin-left: 15px;
+            color: var(--fg);
+        }
+
+        &-description p {
+            font-size: $fss;
+            margin-left: 15px;
+            color: var(--fg);
+        }
+    }
+}
