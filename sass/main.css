@@ -545,10 +545,10 @@ html {
 
 .c-todo__item {
   position: relative;
-  padding: 1rem;
+  padding: 0.5rem;
   padding-right: 3rem;
   color: var(--fg);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   background-color: var(--bg);
   border: 2px solid var(--sfg);
   border-radius: 5px;

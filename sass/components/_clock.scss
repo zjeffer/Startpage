@@ -8,14 +8,14 @@
 .c-clock__hour,
 .c-clock__separator,
 .c-clock__minutes {
-    font-size: $fsg;
+    font-size: $font-size-xl;
     font-weight: bolder;
     color: var(--fg);
 }
 
 .c-date__month,
 .c-date__day {
-    font-size: $fsm;
+    font-size: $font-size-lg;
     font-weight: bold;
     color: var(--fg);
 }

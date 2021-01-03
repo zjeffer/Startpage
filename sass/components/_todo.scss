@@ -55,10 +55,10 @@
     // the list item
     &__item {
         position: relative;
-        padding: 1rem;
+        padding: 0.5rem;
         padding-right: 3rem;
         color: var(--fg);
-        font-size: $fses;
+        font-size: $font-size-xs;
         background-color: var(--bg);
         
         // box-shadow: $boxShadow;
